@@ -7,15 +7,16 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import Experience from '../components/Experience'
 import Projects from '../components/Projects'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div>
+    <div className='md:mx-32'>
       <Navbar />
       <header className='flex flex-1'>
         <SocialMedia />
         <Profile />
-        <div className="hidden md:inline mr-32">
+        <div className="hidden md:inline mr-36">
           <Photo />
         </div>
       </header>
@@ -23,6 +24,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Experience />
+      <Footer />
     </div>
   )
 }
