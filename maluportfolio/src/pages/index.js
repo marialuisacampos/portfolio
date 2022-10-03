@@ -8,10 +8,15 @@ import Skills from '../components/Skills'
 import Experience from '../components/Experience'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <div className='md:mx-32'>
+      <Head>
+        <title>Maria Luísa Campos</title>
+        <link rel="icon" href="/static/favicon.ico" />
+      </Head>
       <Navbar />
       <header className='flex flex-1'>
         <SocialMedia />
