@@ -9,7 +9,18 @@ const Experience = () => {
       <Timeline position='alternate'>
         <TimelineItem>
           <TimelineOppositeContent color="text.secondary">
-            <span className='text-xs md:text-sm'>Sep 2022 - Currently</span>
+            <span className='text-xs md:text-sm'>Dec 2022 - Currently</span>
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent><span className='text-xs md:text-sm'>Jr. FrontEnd Developer @ Vetta</span></TimelineContent>
+        </TimelineItem>
+
+        <TimelineItem>
+          <TimelineOppositeContent color="text.secondary">
+            <span className='text-xs md:text-sm'>Sep 2022 - Dec 2022</span>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />
