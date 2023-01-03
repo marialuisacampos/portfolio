@@ -2,7 +2,7 @@ import React from 'react'
 import { AiFillCheckCircle } from "react-icons/ai"
 
 const Skills = () => {
-  const frontEndSkills = ["HTML", "CSS", "JavaScript", "ReactJS", "NextJS", "TypeScript", "Tailwind", "MaterialUI"];
+  const frontEndSkills = ["HTML", "CSS", "JavaScript", "ReactJS", "NextJS", "TypeScript", "Tailwind", "Styled Comp."];
   const backEndSkills = ["NodeJS", "ExpressJS", "MySQL", "PostgreSQL", "MongoDB"];
 
   return (
